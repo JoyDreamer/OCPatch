@@ -1,0 +1,26 @@
+@implementation JPViewController
+  
+- (void)handleBtn:(id)sender
+{
+    NSLog(@"%@", @“###”);
+    [self testFunction];
+
+    JHTableViewController* tableViewCtrl = [JHTableViewController alloc] init];
+    NSString* string = [tableViewCtrl tableTestFunction:@"ttt"];
+    NSLog(@"!!!%@", string);
+}
+
+@end
+
+@implementation JHTableViewController
+
+- (NSString*)tableTestFunction:(NSString*) string
+{
+    NSLog(@"%@", @“???”);
+    NSString* ret = [NSString stringWithFormat:@"JHTableViewController:%@", string];
+    return ret;
+}
+
+@end
+  
+ 
