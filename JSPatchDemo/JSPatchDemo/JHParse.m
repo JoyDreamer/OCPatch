@@ -3,7 +3,7 @@
 //  JSPatchDemo
 //
 //  Created by joyce on 15/7/21.
-//  Copyright (c) 2015年 bang. All rights reserved.
+//  Copyright (c) 2016年 joyce. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
